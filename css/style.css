@@ -197,6 +197,33 @@ position: relative;
     width: 20px;
     margin-right: 10px;
 }
+
+.sidebar-activity{
+    background: #fff;
+    padding: 5px 25px;
+    margin: 12px 0;
+}
+
+.sidebar-activity h3{
+    font-size: 14px;
+    color: #777;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.sidebar-activity a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888;
+    margin: 3px 0;
+}
+
+.sidebar-activity a img {
+    width: 20px;
+    margin-right: 10px;
+}
 /*------right-sidebar--------*/
 .left-sidebar {
     flex-basis: 25%;
