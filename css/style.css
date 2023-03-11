@@ -25,3 +25,22 @@ a{
     z-index: 100;
     box-shadow: 0 5px 10px rgba(0, 0 , 0 , 1);
 }
+
+.logo img {
+    width: 30px;
+margin-right: 15px;
+    display: block;
+}
+
+.nav-center ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-center ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 5px 8px;
+    padding-right: 5px;
+}
