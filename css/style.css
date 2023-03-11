@@ -44,3 +44,30 @@ margin-right: 15px;
     margin: 5px 8px;
     padding-right: 5px;
 }
+
+.nav-center ul li a img{
+    width: 30px;
+}
+
+.nav-profile-img{
+width: 40px;
+border-radius: 50%;
+display: block;
+cursor: pointer;
+position: relative;
+}
+.online {
+    position: relative;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    right: 0px;
+    top: 0px;
+    background: #41db51;
+    position: absolute;
+
+}
