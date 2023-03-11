@@ -172,6 +172,31 @@ position: relative;
     float: right;
     color: #045be6;
 }
+
+.sidebar-profile-link{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+
+.sidebar-profile-link a{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 13px;
+    border-left: 1px solid #ccc;
+}
+
+.sidebar-profile-link a:first-child{
+    border-left: 0;
+}
+
+.sidebar-profile-link a img{
+    width: 20px;
+    margin-right: 10px;
+}
 /*------right-sidebar--------*/
 .left-sidebar {
     flex-basis: 25%;
