@@ -23,7 +23,7 @@ a{
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
 
 .logo img {
@@ -60,7 +60,9 @@ margin-right: 15px;
     transition: width 0.3s;
 }
 
-.nav-center ul li a:hover::after {
+.nav-center ul li a:hover::after,
+.nav-center ul li a.active-link::after
+{
 width: 100%;
 }
 .nav-profile-img{
@@ -85,3 +87,25 @@ position: relative;
     position: absolute;
 }
 
+.search-box {
+    background: #f2f2f5;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.search-box img {
+    width: 14px;
+}
+.search-box input {
+    width: 100%;
+    background: transparent;
+    padding: 8px;
+    outline: none;
+    border: 0;
+}
