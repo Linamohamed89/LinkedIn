@@ -114,3 +114,28 @@ position: relative;
 
 
 /********************************************/
+
+.container {
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/*------left-sidebar--------*/
+.left-sidebar {
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+
+/*------right-sidebar--------*/
+.left-sidebar {
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+
+/*------main -content--------*/
+.main-content {
+    flex-basis: 47%;
+}
