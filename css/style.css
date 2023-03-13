@@ -239,11 +239,15 @@ position: relative;
     margin: 10px 0;
 }
 /*------right-sidebar--------*/
-.left-sidebar {
+.right-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
 }
 
+.sidebar-news{
+    background: #fff;
+    padding: 10px 25px ;
+}
 /*------main -content--------*/
 .main-content {
     flex-basis: 47%;
