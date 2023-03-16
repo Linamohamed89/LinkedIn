@@ -470,3 +470,29 @@ cursor: pointer;
     font-size: 14px;
     margin-bottom: 15px;
 }
+
+.post-stats{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+}
+
+.post-stats div {
+    display: flex;
+    align-items: center;
+}
+
+.post-stats img {
+    width: 15px;
+    margin-right: -5px;
+}
+
+.liked-users {
+    margin-left: 10px;
+}
+
+}
