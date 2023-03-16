@@ -138,7 +138,8 @@ position: relative;
 }
 
 .sidebar-profile-info img{
-    width: 90px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background: #fff;
     padding: 4px;
@@ -289,6 +290,7 @@ margin: 20px 0 10px;
 
 .sidebar-ad1 img {
     width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin: 4px;
 }
@@ -360,6 +362,7 @@ margin-right: 14px;
 
 .create-post-input img {
     width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -512,6 +515,7 @@ cursor: pointer;
 
 .post-activity-user-icon {
     width: 22px;
+    height: 22px;
     border-radius: 50%;
 }
 
