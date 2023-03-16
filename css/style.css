@@ -329,6 +329,20 @@ margin: 20px 0 10px;
     font-size: 14px;
     margin: 4px 2px;
 }
+
+.copyright-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+   margin-top: 10px;
+    font-weight: 500;
+}
+
+.copyright-msg img {
+    width: 18px;
+margin-right: 14px;
+}
 /*------main -content--------*/
 .main-content {
     flex-basis: 47%;
