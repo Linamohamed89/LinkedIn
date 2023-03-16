@@ -495,4 +495,32 @@ cursor: pointer;
     margin-left: 10px;
 }
 
+.post-activity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.post-activity div {
+    display: flex;
+    align-items: center;
+}
+
+.post-activity-user-icon {
+    width: 22px;
+    border-radius: 50%;
+}
+
+.post-activity-arrow-icon {
+    width: 12px;
+    margin-left: 5px;
+}
+
+.post-activity-link img {
+    width: 18px;
+    margin-right: 8px;
 }
