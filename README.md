@@ -1,6 +1,6 @@
 # LinkedIn social media page
 
-##[site demo]
+##[site demo](https://linamohamed89.github.io/LinkedIn/)
 
 ###project screenshot
 
