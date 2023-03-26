@@ -128,6 +128,8 @@ position: relative;
 .left-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
 }
 
 .sidebar-profile-box{
@@ -244,6 +246,9 @@ position: relative;
 .right-sidebar {
     flex-basis: 25%;
     align-self: flex-start;
+    position: sticky;
+    top: 73px;
+
 }
 
 .sidebar-news{
@@ -534,4 +539,65 @@ cursor: pointer;
 .post-activity-link img {
     width: 18px;
     margin-right: 8px;
+}
+.profile-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    width: 230px;
+}
+
+.profile-menu {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.user-info h3 {
+    font-weight: 500;
+    margin-bottom: -7px;
+}
+
+.user-info a {
+    color: #c9dbf8;
+    font-size: 13px;
+}
+
+.profile-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin: 15px 0 10px;
+}
+
+.profile-menu link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.profile-menu link p {
+    width: 100%;
+}
+
+.profile-menu link img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 35px;
 }
